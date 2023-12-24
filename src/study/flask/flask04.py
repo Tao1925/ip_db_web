@@ -9,7 +9,7 @@ def user(name):
     # placeholder-占位符
     # 可以在html中插入python代码，详见index.html文件
     # 同时也可以用python代码插入列表
-    return render_template("index.html", 
+    return render_template("old_index.html", 
                            pi = 3.14, 
                            placeholder = name,
                            lis = ["van", "en", "ze"])

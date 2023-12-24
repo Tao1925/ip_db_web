@@ -6,3 +6,6 @@ user.name  = "Tao1925"
 user.email = "yhxxtsy@163.com"
 ### 23.12.19 vscode的git不好用
 不知道为什么，昨天还能用的vscode中的图形化git突然就用不了的，submit后无法push上去，解决方法是在终端里用git命令行来解决(%git push)
+### 23.12.20 在命令行中提交代码
+可以使用git commit -am "commit_str" && git push
+来同时添加和提交代码（需要较高git版本）

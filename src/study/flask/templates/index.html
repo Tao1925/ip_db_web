@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home page</title>
+    </head>
+    <body>
+        <h1>home page!</h1>
+        <p>hello {{placeholder}}!</p>
+        <p>pi = {{pi}}</p>
+        {% for i in range(10) %}
+            {% if i % 2 == 1 %}
+                <h2>this is line {{i}}</h2>
+            {% endif %}
+        {% endfor %}
+        {% for item in lis %}
+            <h3>this is {{item}}</h3>
+        {% endfor %}
+    </body>
+</html>
